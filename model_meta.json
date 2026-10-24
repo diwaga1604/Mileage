@@ -1,0 +1,45 @@
+{
+  "best_model": "Demo Random Forest (synthetic data)",
+  "results": [
+    {
+      "model": "Demo Random Forest (synthetic data)",
+      "cv_rmse": null,
+      "test_rmse": null,
+      "test_mae": null,
+      "test_r2": null
+    }
+  ],
+  "ranges": {
+    "cylinders": [
+      4.0,
+      8.0,
+      6.0
+    ],
+    "displacement": [
+      60.0,
+      407.71975786731514,
+      205.14776760257126
+    ],
+    "horsepower": [
+      40.0,
+      230.0,
+      114.27763426759029
+    ],
+    "weight": [
+      1500.0,
+      4774.152605375826,
+      2876.7464935130743
+    ],
+    "acceleration": [
+      11.439128689046587,
+      25.0,
+      19.86582012629568
+    ],
+    "model year": [
+      70.0,
+      82.0,
+      76.0
+    ]
+  },
+  "data_note": "DEMO ONLY: trained on synthetic data generated to unblock app testing. Not trained on the real Auto MPG dataset; predictions are not valid for real-world use."
+}
